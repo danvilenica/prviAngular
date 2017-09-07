@@ -1,0 +1,16 @@
+﻿<div class="col-md-6 col-md-offset-3">
+    <form>
+        <div class="form-group">
+            <label>Id</label>
+            <input class="form-control" ng-disabled="vm.isEdit" ng-model="vm.item.id" id="id"/>
+        </div>
+        <div class="form-group">
+            <label>Name</label>
+            <input class="form-control" ng-model="vm.item.name" id="name"/>
+        </div>
+        <div>
+            <input type="submit" value="Add" class="btn btn-success" ng-click="vm.add()" ng-if="!vm.isEdit" />
+            <input type="submit" value="Edit" class="btn btn-success" ng-click="vm.edit()" ng-if="vm.isEdit" />
+        </div>
+    </form>
+</div>

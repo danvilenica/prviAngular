@@ -1,0 +1,34 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp1.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="wwwroot\App\add\add.controller.js" />
+    <Content Include="wwwroot\App\add\add.html" />
+    <Content Include="wwwroot\App\app.config.js" />
+    <Content Include="wwwroot\App\app.js" />
+    <Content Include="wwwroot\App\cancel\cancel.controller.js" />
+    <Content Include="wwwroot\App\cancel\cancel.html" />
+    <Content Include="wwwroot\App\data\data.factory.js" />
+    <Content Include="wwwroot\App\delete\delete.controller.js" />
+    <Content Include="wwwroot\App\delete\delete.html" />
+    <Content Include="wwwroot\App\delete\deletePerson.controller.js" />
+    <Content Include="wwwroot\App\main\main.controller.js" />
+    <Content Include="wwwroot\App\main\main.html" />
+    <Content Include="wwwroot\App\save\save.controller.js" />
+    <Content Include="wwwroot\App\save\save.html" />
+    <Content Include="wwwroot\index.html" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.ApplicationInsights.AspNetCore" Version="2.0.0" />
+    <PackageReference Include="Microsoft.AspNetCore" Version="1.1.2" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc" Version="1.1.1" />
+    <PackageReference Include="Microsoft.AspNetCore.StaticFiles" Version="1.1.1" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Views\Persons\" />
+  </ItemGroup>
+
+</Project>
